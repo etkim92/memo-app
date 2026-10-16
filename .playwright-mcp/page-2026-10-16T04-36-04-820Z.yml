@@ -1,0 +1,9 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e5]:
+        - heading "📝 메모 앱" [level=1] [ref=e8]
+        - button "새 메모" [ref=e10]
+    - main [ref=e13]:
+      - generic [ref=e14]: 메모를 불러오는 중...
+  - button "Open Next.js Dev Tools" [ref=e22] [cursor=pointer]

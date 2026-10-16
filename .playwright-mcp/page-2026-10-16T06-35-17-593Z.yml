@@ -1,0 +1,53 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e5]:
+        - heading "📝 메모 앱" [level=1] [ref=e8]
+        - button "새 메모" [ref=e10]
+    - main [ref=e13]:
+      - generic [ref=e14]:
+        - generic [ref=e15]:
+          - generic [ref=e26]:
+            - textbox "메모 검색..." [ref=e29]: Supabase 연동 테스트
+            - combobox [ref=e31]:
+              - option "전체 카테고리" [selected]
+              - option "개인 (6)"
+              - option "업무 (4)"
+              - option "학습 (3)"
+              - option "아이디어 (3)"
+              - option "기타 (1)"
+          - generic [ref=e32]:
+            - generic [ref=e33]: 1개 메모 (전체 17개 중)
+            - button "필터 초기화" [ref=e759]
+        - button "Supabase 연동 테스트 개인 2026년 10월 16일 오후 03:35 서버 액션으로 저장되는지 확인하는 메모입니다." [ref=e768] [cursor=pointer]:
+          - generic [ref=e769]:
+            - generic [ref=e770]:
+              - heading "Supabase 연동 테스트" [level=3] [ref=e771]
+              - generic [ref=e772]:
+                - generic [ref=e773]: 개인
+                - generic [ref=e774]: 2026년 10월 16일 오후 03:35
+            - generic [ref=e775]:
+              - button "편집" [ref=e776]
+              - button "삭제" [ref=e779]
+          - paragraph [ref=e785]: 서버 액션으로 저장되는지 확인하는 메모입니다.
+    - dialog [ref=e787]:
+      - generic [ref=e788]:
+        - generic [ref=e789]:
+          - heading "Supabase 연동 테스트" [level=2] [ref=e790]
+          - generic [ref=e791]:
+            - generic [ref=e792]: 개인
+            - generic [ref=e793]: "수정: 2026년 10월 16일 오후 03:35"
+            - generic [ref=e794]: "작성: 2026년 10월 16일 오후 03:35"
+        - button "닫기" [ref=e795]
+      - generic [ref=e798]:
+        - generic [ref=e799]:
+          - generic [ref=e800]:
+            - heading "✨ AI 요약" [level=3] [ref=e801]
+            - button "다시 요약" [ref=e809]
+          - paragraph [ref=e810]: 서버 액션 기능을 활용해 Supabase에 데이터가 정상적으로 저장되는지 확인하는 메모입니다.
+        - paragraph [ref=e805]: 서버 액션으로 저장되는지 확인하는 메모입니다.
+      - generic [ref=e806]:
+        - button "편집" [ref=e807]
+        - button "삭제" [ref=e808]
+  - button "Open Next.js Dev Tools" [ref=e22] [cursor=pointer]
+  - alert [ref=e758]

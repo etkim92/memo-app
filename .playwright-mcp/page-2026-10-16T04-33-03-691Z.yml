@@ -1,0 +1,97 @@
+- generic [active] [ref=f2e1]:
+  - generic [ref=f2e2]:
+    - banner [ref=f2e3]:
+      - generic [ref=f2e5]:
+        - heading "📝 메모 앱" [level=1] [ref=f2e8]
+        - button "새 메모" [ref=f2e10]
+    - main [ref=f2e13]:
+      - generic [ref=f2e14]:
+        - generic [ref=f2e15]:
+          - generic [ref=f2e16]:
+            - textbox "메모 검색..." [ref=f2e19]
+            - combobox [ref=f2e21]:
+              - option "전체 카테고리" [selected]
+              - option "개인 (2)"
+              - option "업무 (0)"
+              - option "학습 (1)"
+              - option "아이디어 (2)"
+              - option "기타 (0)"
+          - generic [ref=f2e22]: 총 5개의 메모
+        - generic [ref=f2e25]:
+          - 'button "React 18 새로운 기능 학습 학습 2026년 10월 15일 오후 01:32 React 18에서 새로 추가된 기능들을 학습해야 함: 1. Concurrent Features 2. Automatic Batching 3. Suspense 개선사항 4. useId Hook 5. useDeferredValue Hook 이번 주말에 공식 문서를 읽고 간단한 예제를 만들어보자. #React #학습 #개발" [ref=f2e26] [cursor=pointer]':
+            - generic [ref=f2e27]:
+              - generic [ref=f2e28]:
+                - heading "React 18 새로운 기능 학습" [level=3] [ref=f2e29]
+                - generic [ref=f2e30]:
+                  - generic [ref=f2e31]: 학습
+                  - generic [ref=f2e32]: 2026년 10월 15일 오후 01:32
+              - generic [ref=f2e33]:
+                - button "편집" [ref=f2e34]
+                - button "삭제" [ref=f2e37]
+            - paragraph [ref=f2e41]: "React 18에서 새로 추가된 기능들을 학습해야 함: 1. Concurrent Features 2. Automatic Batching 3. Suspense 개선사항 4. useId Hook 5. useDeferredValue Hook 이번 주말에 공식 문서를 읽고 간단한 예제를 만들어보자."
+            - generic [ref=f2e42]:
+              - generic [ref=f2e43]: "#React"
+              - generic [ref=f2e44]: "#학습"
+              - generic [ref=f2e45]: "#개발"
+          - 'button "새로운 앱 아이디어: 습관 트래커 아이디어 2026년 10월 13일 오후 01:32 매일 실천하고 싶은 습관들을 관리할 수 있는 앱: 핵심 기능: - 습관 등록 및 관리 - 일일 체크인 - 진행 상황 시각화 - 목표 달성 알림 - 통계 분석 기술 스택: React Native + Supabase 출시 목표: 3개월 후 #앱개발 #습관 #React Native" [ref=f2e46] [cursor=pointer]':
+            - generic [ref=f2e47]:
+              - generic [ref=f2e48]:
+                - 'heading "새로운 앱 아이디어: 습관 트래커" [level=3] [ref=f2e49]'
+                - generic [ref=f2e50]:
+                  - generic [ref=f2e51]: 아이디어
+                  - generic [ref=f2e52]: 2026년 10월 13일 오후 01:32
+              - generic [ref=f2e53]:
+                - button "편집" [ref=f2e54]
+                - button "삭제" [ref=f2e57]
+            - paragraph [ref=f2e61]: "매일 실천하고 싶은 습관들을 관리할 수 있는 앱: 핵심 기능: - 습관 등록 및 관리 - 일일 체크인 - 진행 상황 시각화 - 목표 달성 알림 - 통계 분석 기술 스택: React Native + Supabase 출시 목표: 3개월 후"
+            - generic [ref=f2e62]:
+              - generic [ref=f2e63]: "#앱개발"
+              - generic [ref=f2e64]: "#습관"
+              - generic [ref=f2e65]: "#React Native"
+          - 'button "주말 여행 계획 개인 2026년 10월 8일 오후 01:32 이번 주말 제주도 여행 계획: 토요일: - 오전: 한라산 등반 - 오후: 성산일출봉 관광 - 저녁: 흑돼지 맛집 방문 일요일: - 오전: 우도 관광 - 오후: 쇼핑 및 기념품 구매 - 저녁: 공항 이동 준비물: 등산화, 카메라, 선크림 #여행 #제주도 #주말" [ref=f2e66] [cursor=pointer]':
+            - generic [ref=f2e67]:
+              - generic [ref=f2e68]:
+                - heading "주말 여행 계획" [level=3] [ref=f2e69]
+                - generic [ref=f2e70]:
+                  - generic [ref=f2e71]: 개인
+                  - generic [ref=f2e72]: 2026년 10월 8일 오후 01:32
+              - generic [ref=f2e73]:
+                - button "편집" [ref=f2e74]
+                - button "삭제" [ref=f2e77]
+            - paragraph [ref=f2e81]: "이번 주말 제주도 여행 계획: 토요일: - 오전: 한라산 등반 - 오후: 성산일출봉 관광 - 저녁: 흑돼지 맛집 방문 일요일: - 오전: 우도 관광 - 오후: 쇼핑 및 기념품 구매 - 저녁: 공항 이동 준비물: 등산화, 카메라, 선크림"
+            - generic [ref=f2e82]:
+              - generic [ref=f2e83]: "#여행"
+              - generic [ref=f2e84]: "#제주도"
+              - generic [ref=f2e85]: "#주말"
+          - 'button "독서 목록 개인 2026년 10월 1일 오후 01:32 올해 읽고 싶은 책들: 개발 관련: - 클린 코드 (로버트 C. 마틴) - 리팩토링 2판 (마틴 파울러) - 시스템 디자인 인터뷰 (알렉스 쉬) 자기계발: - 아토믹 해빗 (제임스 클리어) - 데일 카네기 인간관계론 소설: - 82년생 김지영 (조남주) - 미드나잇 라이브러리 (매트 헤이그) #독서 #책 #자기계발" [ref=f2e86] [cursor=pointer]':
+            - generic [ref=f2e87]:
+              - generic [ref=f2e88]:
+                - heading "독서 목록" [level=3] [ref=f2e89]
+                - generic [ref=f2e90]:
+                  - generic [ref=f2e91]: 개인
+                  - generic [ref=f2e92]: 2026년 10월 1일 오후 01:32
+              - generic [ref=f2e93]:
+                - button "편집" [ref=f2e94]
+                - button "삭제" [ref=f2e97]
+            - paragraph [ref=f2e101]: "올해 읽고 싶은 책들: 개발 관련: - 클린 코드 (로버트 C. 마틴) - 리팩토링 2판 (마틴 파울러) - 시스템 디자인 인터뷰 (알렉스 쉬) 자기계발: - 아토믹 해빗 (제임스 클리어) - 데일 카네기 인간관계론 소설: - 82년생 김지영 (조남주) - 미드나잇 라이브러리 (매트 헤이그)"
+            - generic [ref=f2e102]:
+              - generic [ref=f2e103]: "#독서"
+              - generic [ref=f2e104]: "#책"
+              - generic [ref=f2e105]: "#자기계발"
+          - 'button "성능 최적화 아이디어 아이디어 2026년 10월 4일 오후 01:32 웹 애플리케이션 성능 최적화 방법들: 프론트엔드: - 이미지 최적화 (WebP, lazy loading) - 코드 스플리팅 - 번들 크기 최적화 - 캐싱 전략 백엔드: - 데이터베이스 쿼리 최적화 - CDN 활용 - 서버 사이드 렌더링 - API 응답 캐싱 모니터링: - Core Web Vitals 측정 - 성능 예산 설정 #성능 #최적화 #웹개발" [ref=f2e106] [cursor=pointer]':
+            - generic [ref=f2e107]:
+              - generic [ref=f2e108]:
+                - heading "성능 최적화 아이디어" [level=3] [ref=f2e109]
+                - generic [ref=f2e110]:
+                  - generic [ref=f2e111]: 아이디어
+                  - generic [ref=f2e112]: 2026년 10월 4일 오후 01:32
+              - generic [ref=f2e113]:
+                - button "편집" [ref=f2e114]
+                - button "삭제" [ref=f2e117]
+            - paragraph [ref=f2e121]: "웹 애플리케이션 성능 최적화 방법들: 프론트엔드: - 이미지 최적화 (WebP, lazy loading) - 코드 스플리팅 - 번들 크기 최적화 - 캐싱 전략 백엔드: - 데이터베이스 쿼리 최적화 - CDN 활용 - 서버 사이드 렌더링 - API 응답 캐싱 모니터링: - Core Web Vitals 측정 - 성능 예산 설정"
+            - generic [ref=f2e122]:
+              - generic [ref=f2e123]: "#성능"
+              - generic [ref=f2e124]: "#최적화"
+              - generic [ref=f2e125]: "#웹개발"
+  - button "Open Next.js Dev Tools" [ref=f2e131] [cursor=pointer]
+  - alert [ref=f2e135]

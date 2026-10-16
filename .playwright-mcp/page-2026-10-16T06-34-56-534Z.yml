@@ -1,0 +1,110 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e5]:
+        - heading "📝 메모 앱" [level=1] [ref=e8]
+        - button "새 메모" [ref=e10]
+    - main [ref=e13]:
+      - generic [ref=e14]:
+        - generic [ref=e15]:
+          - generic [ref=e26]:
+            - textbox "메모 검색..." [ref=e29]: Supabase 연동 테스트
+            - combobox [ref=e31]:
+              - option "전체 카테고리" [selected]
+              - option "개인 (5)"
+              - option "업무 (4)"
+              - option "학습 (3)"
+              - option "아이디어 (3)"
+              - option "기타 (1)"
+          - generic [ref=e32]:
+            - generic [ref=e33]: 0개 메모 (전체 16개 중)
+            - button "필터 초기화" [ref=e759]
+        - generic [ref=e35]:
+          - heading "검색 결과가 없습니다" [level=3] [ref=e763]
+          - paragraph [ref=e764]: 다른 검색어나 카테고리를 시도해보세요.
+    - generic [ref=e632]:
+      - generic [ref=e633]:
+        - heading "새 메모 작성" [level=2] [ref=e634]
+        - button [ref=e635]
+      - generic [ref=e638]:
+        - generic [ref=e639]:
+          - generic [ref=e640]: 제목 *
+          - textbox "제목 *" [active] [ref=e641]:
+            - /placeholder: 메모 제목을 입력하세요
+        - generic [ref=e642]:
+          - generic [ref=e643]: 카테고리
+          - combobox "카테고리" [ref=e644]:
+            - option "개인" [selected]
+            - option "업무"
+            - option "학습"
+            - option "아이디어"
+            - option "기타"
+        - generic [ref=e645]:
+          - generic [ref=e646]: 내용 *
+          - generic [ref=e648]:
+            - generic [ref=e649]:
+              - list [ref=e650]:
+                - listitem [ref=e651]:
+                  - button "Add bold text (ctrl + b)" [ref=e652] [cursor=pointer]
+                - listitem [ref=e655]:
+                  - button "Add italic text (ctrl + i)" [ref=e656] [cursor=pointer]
+                - listitem [ref=e659]:
+                  - button "Add strikethrough text (ctrl + shift + x)" [ref=e660] [cursor=pointer]
+                - listitem [ref=e663]:
+                  - button "Insert HR (ctrl + h)" [ref=e664] [cursor=pointer]
+                - listitem [ref=e667]:
+                  - button "Insert title" [ref=e668] [cursor=pointer]
+                - listitem [ref=e671]
+                - listitem [ref=e672]:
+                  - button "Add a link (ctrl + l)" [ref=e673] [cursor=pointer]
+                - listitem [ref=e676]:
+                  - button "Insert a quote (ctrl + q)" [ref=e677] [cursor=pointer]
+                - listitem [ref=e680]:
+                  - button "Insert code (ctrl + j)" [ref=e681] [cursor=pointer]
+                - listitem [ref=e684]:
+                  - button "Insert Code Block (ctrl + shift + j)" [ref=e685] [cursor=pointer]
+                - listitem [ref=e688]:
+                  - button "Insert comment (ctrl + /)" [ref=e689] [cursor=pointer]
+                - listitem [ref=e695]:
+                  - button "Add image (ctrl + k)" [ref=e696] [cursor=pointer]
+                - listitem [ref=e699]:
+                  - button "Add table" [ref=e700] [cursor=pointer]
+                - listitem [ref=e703]
+                - listitem [ref=e704]:
+                  - button "Add unordered list (ctrl + shift + u)" [ref=e705] [cursor=pointer]
+                - listitem [ref=e708]:
+                  - button "Add ordered list (ctrl + shift + o)" [ref=e709] [cursor=pointer]
+                - listitem [ref=e712]:
+                  - button "Add checked list (ctrl + shift + c)" [ref=e713] [cursor=pointer]
+                - listitem [ref=e716]
+                - listitem [ref=e717]:
+                  - button "Open help" [ref=e718] [cursor=pointer]
+              - list [ref=e721]:
+                - listitem [ref=e722]:
+                  - button "Edit code (ctrl + 7)" [ref=e723] [cursor=pointer]
+                - listitem [ref=e727]:
+                  - button "Live code (ctrl + 8)" [ref=e728] [cursor=pointer]
+                - listitem [ref=e732]:
+                  - button "Preview code (ctrl + 9)" [ref=e733] [cursor=pointer]
+                - listitem [ref=e737]
+                - listitem [ref=e738]:
+                  - button "Toggle fullscreen (ctrl + 0)" [ref=e739] [cursor=pointer]
+            - generic [ref=e742]:
+              - generic [ref=e744]:
+                - generic [ref=e765]:
+                  - generic:
+                    - code: 서버 액션으로 저장되는지 확인하는 메모입니다.
+                - textbox "내용 *" [ref=e745]:
+                  - /placeholder: 마크다운으로 메모 내용을 입력하세요
+                  - text: 서버 액션으로 저장되는지 확인하는 메모입니다.
+              - paragraph [ref=e767]: 서버 액션으로 저장되는지 확인하는 메모입니다.
+        - generic [ref=e750]:
+          - generic [ref=e751]: 태그
+          - generic [ref=e752]:
+            - textbox "태그를 입력하고 Enter를 누르세요" [ref=e753]
+            - button "추가" [ref=e754]
+        - generic [ref=e755]:
+          - button "취소" [ref=e756]
+          - button "저장하기" [ref=e757]
+  - button "Open Next.js Dev Tools" [ref=e22] [cursor=pointer]
+  - alert [ref=e758]
